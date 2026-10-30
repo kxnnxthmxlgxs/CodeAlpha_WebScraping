@@ -1,11 +1,20 @@
-# CodeAlpha Web Scraping Project
+# CodeAlpha Data Analytics Internship
 
 ## Overview
-This project was completed as part of the CodeAlpha Data Analytics Internship (Task 1). 
+This repository contains the tasks completed for the CodeAlpha Data Analytics Internship.
 
-## What it does
-A Python script that scrapes book data (Title, Price, Rating, and Availability) from the first 5 pages of `books.toscrape.com` using **Requests** and **BeautifulSoup**. It then uses **Pandas** to clean the data (removing currency symbols and mapping text ratings to numbers) and exports it to a clean CSV file.
+## Tasks Completed
 
-## Files included
-* `CodeAlpha_WebScraping.ipynb`: The Python notebook containing the scraping and cleaning code.
-* `clean_books_data.csv`: The final cleaned dataset containing 100 books.
+### Task 1: Web Scraping
+*   **File:** `CodeAlpha_WebScraping.ipynb`
+*   **Description:** Used Python (`Requests` & `BeautifulSoup`) to scrape 100 books (Title, Price, Rating, Availability) from `books.toscrape.com`. Cleaned the data using `Pandas` and exported it to `clean_books_data.csv`.
+
+### Task 2 & 3: Exploratory Data Analysis (EDA) & Data Visualization
+*   **File:** `CodeAlpha_EDA_and_Visualization.ipynb`
+*   **Description:** Analyzed the scraped book dataset to find pricing trends and rating distributions. Used `Matplotlib` and `Seaborn` to create visualizations (Bar chart, Histogram, Boxplot).
+
+## Visualizations
+![Book Data Visualizations](books_visualizations.png)
+
+## Author
+**Kenneth Malgas**
